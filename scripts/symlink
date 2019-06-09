@@ -15,5 +15,6 @@ echo "Symlinking files..."
 
 link "git/gitconfig" ".gitconfig"
 link "git/gitignore" ".gitignore"
+link "zsh/zshrc" ".zshrc"
 
 echo "Symlinking complete!"
