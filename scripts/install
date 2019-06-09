@@ -1,0 +1,9 @@
+#!/bin/bash
+
+dotfiles_scripts="${HOME}/.dotfiles/scripts"
+
+${dotfiles_scripts}/symlink
+
+printf "\n"
+echo "Initial setup complete!"
+echo "Please restart your shell"
