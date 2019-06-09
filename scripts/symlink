@@ -17,5 +17,7 @@ link "git/gitconfig" ".gitconfig"
 link "git/gitignore" ".gitignore"
 link "zsh/zshrc" ".zshrc"
 link "zsh/zsh_profile" ".zsh_profile"
+link "i3/config" ".config/i3/config"
+link "i3/i3blocks.conf" ".config/i3/i3blocks.conf"
 
 echo "Symlinking complete!"
