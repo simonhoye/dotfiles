@@ -1,5 +1,22 @@
 #!/bin/bash
 
+answer_is_yes() {
+  [[ "$REPLY" =~ ^[Yy]$ ]] \
+    && return 0 \
+    || return 1
+}
+
+ask() {
+  print_question "$1"
+  read -r
+}
+
+ask_for_confirmation() {
+  print_question "$1 (y/n) "
+  read -r -n 1
+  printf "\n"
+}
+
 ask_for_sudo() {
 
   # Ask for the administrator password upfront
@@ -213,6 +230,20 @@ set_trap() {
 
   trap -p "$1" | grep "$2" &> /dev/null \
     || trap '$2' "$1"
+
+}
+
+skip_questions() {
+
+  while :; do
+    case $1 in
+      -y|--yes) return 0;;
+             *) break;;
+    esac
+    shift 1
+  done
+
+  return 1
 
 }
 

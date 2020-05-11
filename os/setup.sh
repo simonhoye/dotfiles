@@ -115,10 +115,18 @@ main() {
 
   #printf "%s" "${BASH_SOURCE[0]}" | grep "setup.sh" &> /dev/null \
   #  || download_dotfiles
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  #./create_symbolic_links.sh "$@"
   
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
   ./install/main.sh
+
+  # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  #./preferences/main.sh
 
 }
 

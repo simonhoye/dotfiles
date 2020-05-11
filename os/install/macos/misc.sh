@@ -6,16 +6,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# ./xcode.sh
-# ./homebrew.sh
+print_in_purple "\n Miscellaneous\n\n"
 
-# ./git.sh
-# ./../nvm.sh
-# ./../npm.sh
-
-# ./browsers.sh
-./misc.sh
-# ./vscode.sh
-
-
-# ./powerline_fonts.sh
+brew_install "Zoom"  "zoomus" "homebrew/cask" "cask"
