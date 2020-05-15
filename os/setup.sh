@@ -118,7 +118,7 @@ main() {
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-  #./create_symbolic_links.sh "$@"
+  ./create_symbolic_links.sh "$@"
   
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -126,7 +126,7 @@ main() {
 
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-  #./preferences/main.sh
+  ./preferences/main.sh
 
 }
 
