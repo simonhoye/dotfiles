@@ -6,16 +6,16 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# ./xcode.sh
-# ./homebrew.sh
+./xcode.sh
+./homebrew.sh
+./git.sh
 
-# ./git.sh
-# ./../nvm.sh
-# ./../npm.sh
+./../nvm.sh
+./../npm.sh
 
-# ./browsers.sh
+./browsers.sh
 ./misc.sh
-# ./vscode.sh
+./vscode.sh
 
 
-# ./powerline_fonts.sh
+./powerline_fonts.sh

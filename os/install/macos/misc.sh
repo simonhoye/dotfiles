@@ -9,6 +9,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 print_in_purple "\n Miscellaneous\n\n"
 
 brew_install "1Password" "1password" "homebrew/cask" "cask"
+brew_install "Cocoapods" "cocoapods" "homebrew/cask" "cask"
 brew_install "Docker" "docker" "homebrew/cask" "cask"
 brew_install "Jet CLI" "jet" "homebrew/cask" "cask"
 brew_install "Joplin" "joplin" "homebrew/cask" "cask"
